@@ -50,7 +50,7 @@ class HomeFragment : Fragment() {
         setRecyclerView()
 
 
-        
+
 
     }
 
