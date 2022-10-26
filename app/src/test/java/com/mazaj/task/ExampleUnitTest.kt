@@ -22,12 +22,6 @@ class ExampleUnitTest {
     private lateinit var viewModel: HomeViewModel
 
 
-    @Before
-    fun setUp() {
-
-        viewModel = HomeViewModel(AppRepository())
-    }
-
     @Test
     fun testApiBrowseData(){
 
