@@ -24,7 +24,6 @@ class ExampleUnitTest {
 
     @Test
     fun testApiBrowseData(){
-
         viewModel = HomeViewModel(AppRepository())
         viewModel.getBrowseData(0,20).value
     }

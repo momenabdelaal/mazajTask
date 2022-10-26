@@ -49,6 +49,9 @@ class HomeFragment : Fragment() {
 
         setRecyclerView()
 
+
+        
+
     }
 
     private fun getBrowseData(page: Int, size: Int) {
